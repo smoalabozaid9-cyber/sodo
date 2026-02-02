@@ -1,0 +1,19 @@
+.filters {
+  margin-bottom: 20px;
+}
+
+.filters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.action-buttons-inline {
+  display: flex;
+  gap: 5px;
+}
+
+.action-buttons-inline .btn {
+  padding: 6px 12px;
+  font-size: 0.9rem;
+}
